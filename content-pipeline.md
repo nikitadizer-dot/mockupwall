@@ -78,7 +78,7 @@ High-intent wall-art / art-selling keywords. Burns ~3/week — keep ≥6 queued.
 | poster mockups — show posters in real rooms (supports /mockups/poster/) | how-to | queued |
 | how to sell art prints online — a beginner's guide (broad head term; supports /for/artists/) | guide | queued |
 | best art mockup generators 2026 (list/comparison; captures "best X" demand) | comparison | queued |
-| what size should wall art be (buyer intent; supports true-scale angle) | definition | queued |
+| what size should wall art be (buyer intent; supports true-scale angle) | definition | published (2026-11-08) |
 | how to price art prints (seller intent; supports /for/artists/) | how-to | queued |
 | framed vs unframed prints — what sells better (comparison; supports /mockups/framed-print/) | comparison | queued |
 | print-on-demand wall art — how to stand out (supports /for/print-on-demand/) | how-to | queued |
