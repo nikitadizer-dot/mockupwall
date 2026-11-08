@@ -10,17 +10,17 @@ const SITE_URL = 'https://www.mockupwall.com'
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: 'MockupWall – Wall Art & Gallery Wall Mockup Generator',
+  title: 'Wallapp – Gallery Wall Designer & Wall Art Mockup App',
   description:
-    'Free AI wall art mockup generator for iOS. Place your art, prints, and posters in realistic room scenes with true scale, frames, and shadows — in seconds. Free to download.',
+    'Wallapp (MockupWall) is a free gallery wall designer and wall art mockup generator for iOS. Place your art, prints, and posters in realistic rooms with true scale, frames, and shadows — in seconds.',
   authors: [{ name: 'Nikita Cheremisinov' }],
   alternates: {
     canonical: SITE_URL,
   },
   openGraph: {
-    title: 'MockupWall – Wall Art & Gallery Wall Mockup Generator',
+    title: 'Wallapp – Gallery Wall Designer & Wall Art Mockup App',
     description:
-      'AI wall art mockup generator for iOS. Place your art in realistic interior scenes with accurate frames, lighting, and scale — in seconds.',
+      'Gallery wall designer and wall art mockup generator for iOS. Place your art in realistic interior scenes with accurate frames, lighting, and scale — in seconds.',
     url: SITE_URL,
     siteName: 'MockupWall',
     images: [
@@ -37,9 +37,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'MockupWall – Wall Art & Gallery Wall Mockup Generator',
+    title: 'Wallapp – Gallery Wall Designer & Wall Art Mockup App',
     description:
-      'AI wall art mockup generator for iOS. Place your art in realistic interior scenes with accurate frames, lighting, and scale — in seconds.',
+      'Gallery wall designer and wall art mockup generator for iOS. Place your art in realistic interior scenes with accurate frames, lighting, and scale — in seconds.',
     images: ['/og-image.png'],
   },
 }

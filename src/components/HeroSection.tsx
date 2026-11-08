@@ -10,14 +10,14 @@ const HeroSection = () => {
 
       <div className="container relative z-10">
         <h1 className="text-[clamp(3rem,6vw,5rem)] max-w-[940px] mx-auto mb-6 fade-up">
-          Wall Art{' '}
+          Gallery Wall{' '}
           <span className="highlight">
-            <span>MOCKUP GENERATOR</span>
+            <span>DESIGNER</span>
           </span>
         </h1>
-        <p className="text-xl text-muted-foreground max-w-[640px] mx-auto mb-12 fade-up delay-1">
-          Place your art, prints, and posters in realistic rooms — at true scale, framed, with real
-          light and shadow — in seconds.
+        <p className="text-xl text-muted-foreground max-w-[660px] mx-auto mb-12 fade-up delay-1">
+          Wallapp is a wall art mockup generator for iOS — place your art, prints, and posters in
+          realistic rooms at true scale, framed, with real light and shadow, in seconds.
         </p>
         <div className="flex justify-center gap-4 flex-wrap fade-up delay-2">
           <a
