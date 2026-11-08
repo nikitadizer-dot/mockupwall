@@ -1,0 +1,76 @@
+# MockupWall
+
+> AI wall art mockup generator and gallery wall designer for iOS.
+
+MockupWall is the website for Wallapp – Gallery Wall Designer, an iOS app that places your artwork, prints, posters, and photography into realistic interior scenes — with accurate frames, lighting, shadows, and true-to-size scale — in seconds. Built for artists, Etsy art sellers, print-on-demand shops, photographers, galleries, and interior designers who need in-context product images without a photoshoot.
+
+## Key Features
+
+- Wall art mockup generator — place your art in a realistic room from one photo
+- True-to-scale placement — enter real dimensions so the size reads correctly
+- Thousands of interior scenes (homes, galleries, offices, seasonal), updated regularly
+- Upload your own room or wall photo to place art exactly where it will hang
+- Customizable frames, mats, edge colors, walls, floors, and textures
+- Automatic lighting, shadow, and color matching for a photoreal result
+- Gallery wall / grid layouts with multiple artworks
+- Built-in wall paint color visualizer
+- AI art video — turn a mockup into a short showcase clip for social
+- High-resolution export for listings, ads, print, and promotion
+- 100% mobile — iPhone and iPad, no desktop needed
+
+## Who Uses It
+
+Artists and illustrators, Etsy art-print sellers, print-on-demand (POD) wall-art stores, photographers selling fine-art prints, galleries and art dealers, and interior designers.
+
+## Platform
+
+- iOS only (iPhone and iPad)
+- Free to download; premium features via subscription (weekly or lifetime)
+- Available on the App Store: https://apps.apple.com/us/app/wallapp-gallery-wall-designer/id6800613900
+
+## Mockup Types
+
+- Wall art mockups: https://www.mockupwall.com/mockups/wall-art/
+- Canvas mockups: https://www.mockupwall.com/mockups/canvas/
+- Poster mockups: https://www.mockupwall.com/mockups/poster/
+- Framed print mockups: https://www.mockupwall.com/mockups/framed-print/
+- Gallery wall mockups: https://www.mockupwall.com/mockups/gallery-wall/
+- Art print mockups: https://www.mockupwall.com/mockups/art-print/
+- Photography print mockups: https://www.mockupwall.com/mockups/photography/
+
+## Use Cases
+
+- For Etsy art sellers: https://www.mockupwall.com/for/etsy-art-sellers/
+- For print-on-demand: https://www.mockupwall.com/for/print-on-demand/
+- For artists: https://www.mockupwall.com/for/artists/
+- For photographers: https://www.mockupwall.com/for/photographers/
+- For interior designers: https://www.mockupwall.com/for/interior-designers/
+- For galleries: https://www.mockupwall.com/for/galleries/
+
+## Tools
+
+- Wall art mockup generator: https://www.mockupwall.com/tools/wall-art-mockup-generator/
+- Gallery wall designer: https://www.mockupwall.com/tools/gallery-wall-designer/
+- Room art visualizer (see art on your own wall): https://www.mockupwall.com/tools/room-visualizer/
+- Wall paint color visualizer: https://www.mockupwall.com/tools/paint-color-visualizer/
+- AI art video generator: https://www.mockupwall.com/tools/art-video-generator/
+- Free wall art mockup generator: https://www.mockupwall.com/tools/free-wall-art-mockup-generator/
+
+## Comparisons
+
+- Placeit alternative (for art): https://www.mockupwall.com/alternatives/placeit/
+- ArtPlacer alternative: https://www.mockupwall.com/alternatives/artplacer/
+
+## Guides
+
+- Blog: https://www.mockupwall.com/blog/
+- How to make wall art mockups without Photoshop: https://www.mockupwall.com/blog/how-to-make-wall-art-mockups/
+- How to sell art prints on Etsy — photos that convert: https://www.mockupwall.com/blog/sell-art-prints-on-etsy/
+- Gallery wall layout ideas and how to preview them: https://www.mockupwall.com/blog/gallery-wall-layout-ideas/
+- How to photograph your art for prints and mockups: https://www.mockupwall.com/blog/how-to-photograph-your-art/
+
+## Links
+
+- Website: https://www.mockupwall.com
+- Privacy Policy: https://hibu.app/privacy-policy/
+- Terms of Use: https://hibu.app/terms-of-use/

@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 2%;
+    --foreground: 0 0% 100%;
+
+    --card: 0 0% 7%;
+    --card-foreground: 0 0% 100%;
+    --card-hover: 0 0% 10%;
+
+    --popover: 0 0% 7%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 46 95% 53%;
+    --primary-foreground: 0 0% 0%;
+
+    --secondary: 0 0% 7%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 7%;
+    --muted-foreground: 0 0% 53%;
+
+    --accent: 46 95% 53%;
+    --accent-foreground: 0 0% 0%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 100% / 0.1;
+    --border-accent: 46 95% 53% / 0.5;
+    --input: 0 0% 100% / 0.1;
+    --ring: 46 95% 53%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 4%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 46 95% 53%;
+    --sidebar-primary-foreground: 0 0% 0%;
+    --sidebar-accent: 0 0% 10%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 0 0% 100% / 0.1;
+    --sidebar-ring: 46 95% 53%;
+
+    --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-inter, Inter, sans-serif);
+    -webkit-font-smoothing: antialiased;
+    /* Dot grid canvas — same pattern as the app's editor background */
+    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.06) 1px, transparent 1.5px);
+    background-size: 32px 32px;
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-family: var(--font-oswald, Oswald, sans-serif);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    line-height: 1.1;
+  }
+}
+
+@layer components {
+  .highlight {
+    @apply inline-block px-2 py-0.5;
+    background-color: hsl(var(--primary));
+    color: hsl(var(--primary-foreground));
+    transform: skew(-2deg);
+  }
+
+  .highlight span {
+    display: block;
+    transform: skew(2deg);
+  }
+}
+
+@layer utilities {
+  .fade-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s var(--ease-out);
+  }
+
+  .fade-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .delay-1 { transition-delay: 0.1s; }
+  .delay-2 { transition-delay: 0.2s; }
+  .delay-3 { transition-delay: 0.3s; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes revealModel {
+  0%, 45% { opacity: 0; transform: scale(1); }
+  55%, 100% { opacity: 1; transform: scale(1.05); }
+}
+
+@keyframes scrollScreen {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-75%); }
+}
+
+/* Sticker sway — gentle peel-corner flutter, like a sticker not fully stuck down */
+@keyframes stickerSway {
+  0%, 100% { transform: rotate(-4deg) translateY(0); }
+  50% { transform: rotate(3deg) translateY(-4px); }
+}
+
+.sticker {
+  animation: stickerSway 4.5s ease-in-out infinite;
+  transform-origin: 50% 0%;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  will-change: transform;
+}
+
+/* Peel up on hover — lifts and straightens like grabbing the corner */
+.sticker:hover {
+  transform: rotate(0deg) translateY(-8px) scale(1.06);
+  box-shadow: 0 24px 40px rgba(0, 0, 0, 0.55);
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sticker { animation: none; }
+}
