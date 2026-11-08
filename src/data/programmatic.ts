@@ -31,9 +31,9 @@ export const programmaticPages: ProgrammaticPage[] = [
   {
     slug: 'wall-art',
     group: 'mockups',
-    metaTitle: 'Wall Art Mockup Generator – See Your Art in a Room',
+    metaTitle: 'Wall Art Mockup Generator – See Your Art at True Scale',
     metaDescription:
-      'Free wall art mockup generator: place your art in realistic interior scenes with accurate frames, shadows, and scale. Your artwork on a real wall, from one photo. iOS app.',
+      'Free wall art mockup generator: see your art on a real wall at true scale, framed, with real light and shadow — from one photo. Get the size right before you print or hang. iOS app.',
     h1: 'Wall Art Mockup Generator',
     subtitle: 'Show your art on a real wall, at true scale — the one thing a flat scan can never do.',
     intro: [
@@ -745,9 +745,9 @@ export const programmaticPages: ProgrammaticPage[] = [
   {
     slug: 'room-visualizer',
     group: 'tools',
-    metaTitle: 'Room Art Visualizer – See Art on Your Own Wall',
+    metaTitle: 'Room Visualizer – See Art on Your Wall at True Scale',
     metaDescription:
-      'Free room visualizer: upload a photo of your wall and see any artwork on it at true scale, framed, with realistic light and shadow before you buy or hang. iOS app.',
+      'Free room visualizer: upload a photo of your wall and see any artwork on it at true scale — framed, with realistic light and shadow — to get the size right before you buy or hang. iOS app.',
     h1: 'Room Art Visualizer',
     subtitle: 'Upload your wall, drop in the art, and see it in your own space at the real size.',
     intro: [

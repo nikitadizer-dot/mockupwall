@@ -25,6 +25,81 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'what-size-should-wall-art-be',
+    metaTitle: 'What Size Should Wall Art Be? A Simple Guide',
+    metaDescription:
+      'What size should wall art be? The simple rule: fill about two-thirds the width of the furniture below, hung at eye level. Sizing for sofas, beds, and gallery walls.',
+    title: 'What Size Should Wall Art Be? A Simple Guide',
+    excerpt:
+      'Too small and the art looks lost; too big and it overwhelms. Here’s the simple proportion rule — and how to see the right size on your wall before you buy or hang.',
+    date: '2026-11-08',
+    shortAnswer:
+      'As a rule of thumb, wall art should fill about two-thirds to three-quarters of the width of the furniture beneath it, and hang with its center at eye level — roughly 57–60 inches (145–152 cm) from the floor. Over a sofa or bed, measure the furniture width, take two-thirds of it, and choose a piece (or a grouping) close to that width. To be sure before you commit, preview the exact size on your wall at true scale.',
+    hero: '/assets/blog/what-size-should-wall-art-be.jpg',
+    blocks: [
+      {
+        type: 'p',
+        text: 'Choosing art is the fun part; choosing the right size is where most walls go wrong. A piece that looked big online arrives and floats like a postage stamp over the sofa, or a canvas that seemed reasonable swallows the whole wall. The fix isn’t taste — it’s proportion. A couple of simple rules get you the right size almost every time, and a quick preview removes the last bit of doubt.',
+      },
+      { type: 'h2', text: 'The two-thirds rule' },
+      {
+        type: 'p',
+        text: 'The most reliable guideline: wall art (a single piece or a grouping treated as one) should span about two-thirds to three-quarters of the width of the furniture below it. Over a 180 cm (72 in) sofa, that means art roughly 120–135 cm (48–54 in) wide. It’s wide enough to anchor the furniture without crowding the edges. Leave a hand’s width or two of wall on each side so the piece reads as intentional, not wedged in.',
+      },
+      { type: 'h2', text: 'Hang it at eye level' },
+      {
+        type: 'p',
+        text: 'Height matters as much as size. Hang art so its center sits around eye level — about 57–60 inches (145–152 cm) from the floor, the standard galleries use. Over furniture, keep the bottom of the frame roughly 15–25 cm (6–10 in) above the sofa back or headboard so the two relate without touching. If ceilings are high, resist the urge to hang everything up high — eye level still wins.',
+      },
+      { type: 'h2', text: 'Sizing by location' },
+      {
+        type: 'ul',
+        items: [
+          'Above a sofa: aim for two-thirds of the sofa width; one large piece or a balanced pair/trio.',
+          'Above a bed: match roughly the width of the headboard, centered on the bed, not the wall.',
+          'A blank feature wall: go big — a single oversized piece reads more confident than several small ones.',
+          'Narrow spaces (hallway, between windows): a tall vertical print suits the proportion better than a wide one.',
+          'Above a console or sideboard: two-thirds of the console width, bottom 15–30 cm above the surface.',
+        ],
+      },
+      { type: 'h2', text: 'Gallery walls count as one shape' },
+      {
+        type: 'p',
+        text: 'For a gallery wall, apply the same two-thirds rule to the whole arrangement, not each frame. Treat the group as a single block, size that block to about two-thirds of the furniture width, and keep consistent spacing (5–8 cm) between frames so it holds together. Planning the grouping before you hang is the difference between a composed wall and a scattered one.',
+      },
+      { type: 'h2', text: 'See the real size before you commit' },
+      {
+        type: 'p',
+        text: 'Numbers get you close, but the safest step is to see the actual size on your actual wall. That’s exactly what a room visualizer does: you upload a photo of your wall, enter the artwork’s real dimensions, and it places the piece at true scale so you can judge whether a 60×90 cm print or a 100×150 cm one is right — before you buy or drill. In MockupWall you can swap sizes in the same wall photo and compare them side by side in seconds.',
+      },
+      { type: 'widget', widget: 'before-after' },
+      { type: 'h2', text: 'For artists and print sellers' },
+      {
+        type: 'p',
+        text: 'If you sell prints, sizing isn’t just a buyer’s problem — it’s a conversion lever. Shoppers hesitate when they can’t picture how big a print will be, so showing each piece at true scale in a room answers the question for them and cuts size-related returns. Generate the same print at a few sizes in a styled room and let buyers see small, medium, and large at a glance.',
+      },
+    ],
+    faqs: [
+      {
+        q: 'What size should wall art be above a sofa?',
+        a: 'About two-thirds to three-quarters of the sofa’s width. For a 180 cm (72 in) sofa, that’s roughly 120–135 cm (48–54 in) of art, whether a single piece or a balanced grouping, centered over the sofa and hung 15–25 cm above the back.',
+      },
+      {
+        q: 'How high should I hang wall art?',
+        a: 'Center the piece at eye level — about 57–60 inches (145–152 cm) from the floor. Over furniture, keep the bottom of the frame roughly 15–25 cm above the sofa back or headboard.',
+      },
+      {
+        q: 'Is it better to go bigger or smaller with wall art?',
+        a: 'When in doubt, go bigger. The most common mistake is art that’s too small, which leaves the wall feeling unfinished. One larger piece usually reads more confident than several small ones scattered around.',
+      },
+      {
+        q: 'How can I see what size will look right on my wall?',
+        a: 'Use a room visualizer: upload a photo of your wall, enter the artwork’s real dimensions, and it shows the piece at true scale. In MockupWall you can compare different sizes in the same wall photo before you buy or hang.',
+      },
+    ],
+    related: ['/mockups/wall-art/', '/tools/room-visualizer/', '/mockups/gallery-wall/', '/tools/wall-art-mockup-generator/'],
+  },
+  {
     slug: 'how-to-make-wall-art-mockups',
     metaTitle: 'How to Make Wall Art Mockups (No Photoshop)',
     metaDescription:
