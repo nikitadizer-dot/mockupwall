@@ -25,6 +25,80 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'canvas-mockup-guide',
+    metaTitle: 'Canvas Mockup: How to Show Your Art as a Canvas',
+    metaDescription:
+      'How to make a canvas mockup: show your artwork as a gallery-wrapped canvas on a real wall, at true scale, with depth and shadow — from one photo, no studio.',
+    title: 'Canvas Mockup: How to Show Your Art as a Canvas',
+    excerpt:
+      'A flat JPEG can’t show the depth of a gallery wrap or the frameless look that makes canvas sell. Here’s how to present your art as a canvas — on a real wall.',
+    date: '2026-11-09',
+    shortAnswer:
+      'To make a canvas mockup, upload a photo of your artwork, enter the canvas size, and place it on a wall in a room scene (or a photo of your own wall) using an app like MockupWall. It renders the piece as a gallery-wrapped canvas with depth, a wall shadow, and true scale, then exports a high-resolution image — so buyers see the actual canvas product, not a flat thumbnail of the image.',
+    hero: '/assets/blog/canvas-mockup-guide.jpg',
+    blocks: [
+      {
+        type: 'p',
+        text: 'Canvas is a format, not just an image. The depth of the gallery wrap, the way the edge turns the corner, the frameless look that sits proud of the wall — that’s what a buyer is paying for when they choose canvas over a print. And none of it survives a flat JPEG of your artwork. A canvas mockup shows the piece as a real hung canvas, which is the difference between a listing that looks like a file and one that looks like a product.',
+      },
+      { type: 'h2', text: 'Why a canvas needs its own mockup' },
+      {
+        type: 'p',
+        text: 'A flat scan tells a buyer what the image is. It doesn’t tell them it’s a 3 cm deep gallery-wrapped canvas that will sit off the wall with a soft shadow behind it. Shoppers judge canvas on exactly those physical cues — depth, edge, and the frameless silhouette — so a presentation that shows them is what builds enough confidence to buy. A flat image, or a generic framed-print template, quietly misrepresents the product.',
+      },
+      { type: 'h2', text: 'How to make a canvas mockup' },
+      {
+        type: 'ul',
+        items: [
+          'Upload a clean, square-on photo of your artwork (even light, full edges, in focus).',
+          'Enter the canvas dimensions so the piece is placed at true scale in the room.',
+          'Choose a scene that fits the work — or upload a photo of your own wall.',
+          'Let the app render it as a gallery-wrapped canvas with depth and a natural wall shadow.',
+          'Export a high-resolution image, and generate a few scenes to fill your listing gallery.',
+        ],
+      },
+      {
+        type: 'p',
+        text: 'Because the mockup is built from your own artwork and scene choices, every result is unique to your shop — not the same stock template thousands of other canvas sellers reuse. The cleaner your input photo, the more faithfully the colour and detail carry onto the canvas.',
+      },
+      { type: 'widget', widget: 'before-after' },
+      { type: 'h2', text: 'Show the size options' },
+      {
+        type: 'p',
+        text: 'Canvas sells in sizes, and buyers hesitate when they can’t picture how big a piece will be. Generate the same canvas at a few dimensions — a small accent piece, a medium, and an oversized statement canvas — each at true scale in a room. Seeing the size against a sofa or bed answers the question that otherwise turns into a support message or a return.',
+      },
+      { type: 'h2', text: 'For print-on-demand canvas sellers' },
+      {
+        type: 'p',
+        text: 'In print-on-demand, every seller prints on the same canvas blanks, so the product itself isn’t a differentiator — the presentation is. In-room canvas mockups built from your designs make your catalogue look like a brand instead of a drop-shipper using the generator’s default template. Photograph or export each design once, and generate the full set of in-room images from it.',
+      },
+      { type: 'h2', text: 'What it does and doesn’t do' },
+      {
+        type: 'p',
+        text: 'A canvas mockup is a realistic preview of how the piece reads on a wall — format, depth, scale. It isn’t a printing or shipping service; it makes the image, not the physical canvas. And the scale comes from the dimensions you enter, not a measurement of a real wall. For listings, ads, and client previews, it replaces the staged photoshoot and produces the images the same day.',
+      },
+    ],
+    faqs: [
+      {
+        q: 'How do I make a canvas mockup of my art?',
+        a: 'Upload your artwork, enter the canvas dimensions, and choose a room scene (or your own wall) in an app like MockupWall. It renders the piece as a gallery-wrapped canvas with depth, shadow, and true scale, then exports a high-resolution image.',
+      },
+      {
+        q: 'Why not use a flat image or a framed-print template?',
+        a: 'A flat image hides the canvas format, and a framed template shows the wrong product. A canvas mockup shows the gallery wrap, depth, and frameless look that buyers are actually paying for, which builds the confidence to buy.',
+      },
+      {
+        q: 'Can I show the canvas at different sizes?',
+        a: 'Yes. Change the dimensions you enter and the canvas is re-placed at that true scale, so you can present small, medium, and oversized options of the same piece in a room.',
+      },
+      {
+        q: 'Is it free, and what device does it run on?',
+        a: 'MockupWall is free to download and lets you create mockups before paying; a subscription unlocks unlimited mockups and all scenes. It runs on iPhone and iPad — there’s no web or Android version.',
+      },
+    ],
+    related: ['/mockups/canvas/', '/mockups/wall-art/', '/for/print-on-demand/', '/tools/wall-art-mockup-generator/'],
+  },
+  {
     slug: 'what-size-should-wall-art-be',
     metaTitle: 'What Size Should Wall Art Be? A Simple Guide',
     metaDescription:

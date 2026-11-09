@@ -74,7 +74,7 @@ High-intent wall-art / art-selling keywords. Burns ~3/week — keep ≥6 queued.
 | how to sell art prints on Etsy — photos that convert (supports /for/etsy-art-sellers/) | how-to | published (2026-11-08) |
 | gallery wall layout ideas and how to preview them (supports /mockups/gallery-wall/) | list/how-to | published (2026-11-08) |
 | how to photograph your art for prints and mockups (supports /for/photographers/) | how-to | published (2026-11-08) |
-| canvas mockup: how to show your art as a canvas (supports /mockups/canvas/) | how-to | queued |
+| canvas mockup: how to show your art as a canvas (supports /mockups/canvas/) | how-to | published (2026-11-09) |
 | poster mockups — show posters in real rooms (supports /mockups/poster/) | how-to | queued |
 | how to sell art prints online — a beginner's guide (broad head term; supports /for/artists/) | guide | queued |
 | best art mockup generators 2026 (list/comparison; captures "best X" demand) | comparison | queued |
