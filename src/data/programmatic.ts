@@ -82,9 +82,9 @@ export const programmaticPages: ProgrammaticPage[] = [
   {
     slug: 'canvas',
     group: 'mockups',
-    metaTitle: 'Canvas Mockup Generator – Your Art on a Canvas, On a Wall',
+    metaTitle: 'Canvas Mockup Generator – Show the Gallery-Wrap Depth',
     metaDescription:
-      'Free canvas mockup generator: show your artwork as a gallery-wrapped canvas hanging in a real room, at true scale. From one photo, on iPhone and iPad.',
+      'Free canvas mockup generator: show your art as a gallery-wrapped canvas on a real wall — real depth, shadow, and true scale, from one photo. iOS app, high-res export.',
     h1: 'Canvas Mockup Generator',
     subtitle: 'A gallery-wrapped canvas reads completely differently from a flat scan — show the real thing.',
     intro: [
@@ -133,9 +133,9 @@ export const programmaticPages: ProgrammaticPage[] = [
   {
     slug: 'poster',
     group: 'mockups',
-    metaTitle: 'Poster Mockup Generator – Posters & Prints in Real Rooms',
+    metaTitle: 'Poster Mockup Generator – Framed Posters in Real Rooms',
     metaDescription:
-      'Free poster mockup generator: show your poster or print framed on a real wall, at the right size. One photo in, a scroll-stopping room scene out. iOS app.',
+      'Free poster mockup generator: show your poster framed on a real wall at the right size — in-room, not on a white background. One photo in, a scroll-stopping scene out. iOS app.',
     h1: 'Poster Mockup Generator',
     subtitle: 'Posters sell on vibe and scale — put yours in a room, not on a white background.',
     intro: [
