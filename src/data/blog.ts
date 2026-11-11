@@ -25,6 +25,80 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'poster-mockups-guide',
+    metaTitle: 'Poster Mockups: How to Show Posters in Real Rooms',
+    metaDescription:
+      'How to make poster mockups that sell: show your poster framed in a real room, at the right size, instead of on a white background. From one photo, no studio.',
+    title: 'Poster Mockups: How to Show Posters in Real Rooms',
+    excerpt:
+      'A poster on a white background is just a graphic. Framed on a real wall, it has a size, a mood, and a place in someone’s home. Here’s how to show that.',
+    date: '2026-11-11',
+    shortAnswer:
+      'To make a poster mockup, upload your poster artwork, enter the print size, and place it framed in a room scene (or a photo of your own wall) using an app like MockupWall. It frames the poster at true scale with realistic lighting and a natural shadow, then exports a high-resolution image — so buyers see the poster in context, not floating on a white background.',
+    hero: '/assets/blog/poster-mockups-guide.jpg',
+    blocks: [
+      {
+        type: 'p',
+        text: 'A poster is sold on vibe and scale, and a white-background product shot kills both. The same design that looks flat on a plain backdrop suddenly makes sense when it’s framed above a desk or a bed — it has a size, a mood, and a place in a room. That context is the single biggest lever for a poster shop, and it used to mean framing the print, hanging it, and photographing a staged room. Now it comes from one photo of the artwork.',
+      },
+      { type: 'h2', text: 'Why context beats a white background' },
+      {
+        type: 'p',
+        text: 'Buyers aren’t just buying an image — they’re imagining it on their wall. A poster shown in a styled room answers the questions a flat image leaves open: how big is it, what does it look like framed, does it suit a space like mine? Seeing it in context is what turns a scroll into a sale, which is why the listings that convert almost always lead with an in-room shot rather than the bare design.',
+      },
+      { type: 'h2', text: 'How to make a poster mockup' },
+      {
+        type: 'ul',
+        items: [
+          'Upload your poster artwork — a clean, full-bleed export in the right aspect ratio.',
+          'Enter the print size so the poster is placed at true scale in the scene.',
+          'Choose an interior that matches the poster’s mood, or upload a photo of your own wall.',
+          'Add a frame, mat, or edge colour to show the finished, ready-to-hang look.',
+          'Export a high-resolution image, and generate a few scenes to fill your listing.',
+        ],
+      },
+      {
+        type: 'p',
+        text: 'Because the mockup is built from your own artwork and scene choices, the result is unique to your shop — not the same stock room thousands of other poster sellers reuse. Generate the same poster across a couple of different interiors to widen its appeal without staging anything.',
+      },
+      { type: 'widget', widget: 'before-after' },
+      { type: 'h2', text: 'Show the size' },
+      {
+        type: 'p',
+        text: 'Posters sell in standard sizes — A3, A2, 18×24, and so on — and buyers hesitate when they can’t tell how big a print will be. Enter different dimensions and the poster is re-placed at that true scale, so you can show a small A3 and a large statement print in the same room. Seeing the size against furniture answers the question that otherwise becomes a support message or a return.',
+      },
+      { type: 'h2', text: 'Match the frame to the look' },
+      {
+        type: 'p',
+        text: 'Most posters are hung framed, so showing the frame is part of showing the product. A thin black frame reads modern, natural wood reads warm, and a wide mat reads gallery. Set the frame and mat in the app to present the finished piece the way a buyer will actually hang it — or show both framed and unframed if you sell the print on its own.',
+      },
+      { type: 'h2', text: 'What it does and doesn’t do' },
+      {
+        type: 'p',
+        text: 'A poster mockup is a realistic preview of how the print reads on a wall — framed, in context, at scale. It isn’t a printing or shipping service; it makes the image, not the physical poster, and the scale comes from the dimensions you enter rather than a measured wall. For listings, ads, and social, it replaces the staged shoot and produces the images the same day you finish the design.',
+      },
+    ],
+    faqs: [
+      {
+        q: 'How do I make a poster mockup?',
+        a: 'Upload your poster artwork, enter the print size, add a frame, and choose a room scene (or your own wall) in an app like MockupWall. It places the framed poster at true scale with realistic lighting and shadow, then exports a high-resolution image.',
+      },
+      {
+        q: 'Why not show the poster on a white background?',
+        a: 'A white background hides the size and mood that sell a poster. Shown framed in a real room, the poster has context a buyer can picture in their own space, which is what drives the click and the sale.',
+      },
+      {
+        q: 'Can I show the poster at different sizes?',
+        a: 'Yes. Change the dimensions you enter and the poster is re-placed at that true scale, so you can present small and large options of the same design in a room.',
+      },
+      {
+        q: 'Is it free, and what device does it run on?',
+        a: 'MockupWall is free to download and lets you create mockups before paying; a subscription unlocks unlimited mockups and all scenes. It runs on iPhone and iPad — there’s no web or Android version.',
+      },
+    ],
+    related: ['/mockups/poster/', '/mockups/art-print/', '/for/etsy-art-sellers/', '/tools/free-wall-art-mockup-generator/'],
+  },
+  {
     slug: 'canvas-mockup-guide',
     metaTitle: 'Canvas Mockup: How to Show Your Art as a Canvas',
     metaDescription:

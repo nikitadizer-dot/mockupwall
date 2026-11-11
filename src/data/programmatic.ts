@@ -375,9 +375,9 @@ export const programmaticPages: ProgrammaticPage[] = [
   {
     slug: 'etsy-art-sellers',
     group: 'for',
-    metaTitle: 'Art Mockups for Etsy Sellers – Stand Out in Search',
+    metaTitle: 'Etsy Art Mockups – Listing Photos That Stand Out',
     metaDescription:
-      'Make unique in-room art mockups for your Etsy listings. Stop using the same template every shop uses — show your prints in real scenes, at true scale. iOS app.',
+      'Make unique in-room art mockups for your Etsy listings — fill all 10 photo slots with your prints in real scenes, at true scale. Stop using the template every shop reuses. Free iOS app.',
     h1: 'Art Mockups for Etsy Sellers',
     subtitle: 'Your prints, in real rooms, in photos no other Etsy shop has.',
     intro: [
@@ -421,9 +421,9 @@ export const programmaticPages: ProgrammaticPage[] = [
   {
     slug: 'print-on-demand',
     group: 'for',
-    metaTitle: 'Wall Art Mockups for Print-on-Demand Sellers',
+    metaTitle: 'POD Wall Art Mockups – Make Your Shop Look Different',
     metaDescription:
-      'Generate unique in-room mockups for print-on-demand wall art. Everyone sells the same blanks — the mockup is what makes your shop look different. iOS app.',
+      'Generate unique in-room mockups for print-on-demand wall art. Everyone sells the same blanks, so the mockup is the only thing that sets your shop apart — at true scale, from one photo. Free iOS app.',
     h1: 'Wall Art Mockups for Print-on-Demand',
     subtitle: 'Everyone prints on the same blanks — the mockup is the only thing that looks like you.',
     intro: [
