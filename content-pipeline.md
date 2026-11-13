@@ -76,7 +76,7 @@ High-intent wall-art / art-selling keywords. Burns ~3/week — keep ≥6 queued.
 | how to photograph your art for prints and mockups (supports /for/photographers/) | how-to | published (2026-11-08) |
 | canvas mockup: how to show your art as a canvas (supports /mockups/canvas/) | how-to | published (2026-11-09) |
 | poster mockups — show posters in real rooms (supports /mockups/poster/) | how-to | published (2026-11-11) |
-| how to sell art prints online — a beginner's guide (broad head term; supports /for/artists/) | guide | queued |
+| how to sell art prints online — a beginner's guide (broad head term; supports /for/artists/) | guide | published (2026-11-13) |
 | best art mockup generators 2026 (list/comparison; captures "best X" demand) | comparison | queued |
 | what size should wall art be (buyer intent; supports true-scale angle) | definition | published (2026-11-08) |
 | how to price art prints (seller intent; supports /for/artists/) | how-to | queued |

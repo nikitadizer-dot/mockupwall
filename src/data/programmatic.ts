@@ -281,9 +281,9 @@ export const programmaticPages: ProgrammaticPage[] = [
   {
     slug: 'art-print',
     group: 'mockups',
-    metaTitle: 'Art Print Mockup Generator – Unique In-Room Listing Photos',
+    metaTitle: 'Art Print Mockup Generator – Listing Photos That Sell',
     metaDescription:
-      'Free art print mockup generator: turn a flat print file into scroll-stopping in-room photos that are unique to your shop. True scale, frames, real scenes. iOS app.',
+      'Free art print mockup generator: turn a flat print file into scroll-stopping in-room photos that are unique to your shop — true scale, frames, real scenes. iOS app, high-res export.',
     h1: 'Art Print Mockup Generator',
     subtitle: 'Listing photos that look like your shop, not like the same template every other seller uses.',
     intro: [
@@ -467,9 +467,9 @@ export const programmaticPages: ProgrammaticPage[] = [
   {
     slug: 'artists',
     group: 'for',
-    metaTitle: 'Art Mockups for Artists – Present & Sell Your Work',
+    metaTitle: 'Art Mockups for Artists – Sell More Prints, No Shoot',
     metaDescription:
-      'For painters and illustrators: show your originals and prints on real walls at true scale. Present a cohesive body of work and sell prints, without a photoshoot. iOS.',
+      'For painters and illustrators: show your originals and prints on real walls at true scale, and produce listing photos that sell — a cohesive body of work, no photoshoot. Free iOS app.',
     h1: 'Art Mockups for Artists',
     subtitle: 'Present your work the way collectors picture it — framed, scaled, and hanging in a room.',
     intro: [
