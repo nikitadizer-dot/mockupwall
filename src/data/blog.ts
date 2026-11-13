@@ -25,6 +25,87 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'how-to-sell-art-prints-online',
+    metaTitle: 'How to Sell Art Prints Online: A Beginner’s Guide',
+    metaDescription:
+      'How to sell art prints online, step by step: where to sell, what to offer, how to price, and the listing photos that convert. A practical beginner’s guide.',
+    title: 'How to Sell Art Prints Online: A Beginner’s Guide',
+    excerpt:
+      'Turning your art into a print shop isn’t complicated, but a few decisions make or break it. Here’s the practical path — platform, pricing, and photos.',
+    date: '2026-11-13',
+    shortAnswer:
+      'To sell art prints online, choose where to sell (your own store, Etsy, or print-on-demand), decide what to offer and in which sizes, price for your costs and market, and — most importantly — show each print with strong in-room photos so buyers can picture it on their wall. The photos do most of the selling, and you can produce them from a single image of your artwork with a mockup app, no studio required.',
+    hero: '/assets/blog/how-to-sell-art-prints-online.jpg',
+    blocks: [
+      {
+        type: 'p',
+        text: 'Selling art prints online is one of the most accessible ways to earn from your work: no inventory risk if you print on demand, and a global audience from day one. But “upload and hope” rarely works. A handful of decisions — where you sell, what you offer, how you price, and how you present each print — separate shops that sell from shops that sit quiet. Here’s the practical path for a beginner.',
+      },
+      { type: 'h2', text: '1. Decide where to sell' },
+      {
+        type: 'ul',
+        items: [
+          'Your own store (Shopify, etc.): full control and margins, but you drive all the traffic.',
+          'A marketplace (Etsy): built-in buyers searching for art, in exchange for fees and competition.',
+          'Print-on-demand: a POD partner prints and ships each order, so you hold no stock — lower effort, lower margin.',
+        ],
+      },
+      {
+        type: 'p',
+        text: 'Many sellers start on a marketplace for the traffic, then add their own store once they have an audience. Pick one to start; you can expand later.',
+      },
+      { type: 'h2', text: '2. Decide what to sell, and in what sizes' },
+      {
+        type: 'p',
+        text: 'Offer a small, clear range of sizes rather than every option — common print sizes (A4/A3/A2 or the inch equivalents) cover most buyers and keep your listings simple. Decide whether you sell prints only, or framed prints and canvases too; each format is a different product with its own appeal. Keep your first collection focused and cohesive so the shop reads as a brand.',
+      },
+      { type: 'h2', text: '3. Price with your costs in mind' },
+      {
+        type: 'p',
+        text: 'Price to cover your print and shipping costs, platform fees, and a margin that makes the work worthwhile — then sanity-check against comparable shops. Larger sizes and framed or canvas options carry higher prices, which also lets buyers self-select their budget. Don’t race to the bottom: unique art with strong presentation supports a healthier price than a generic race on cost.',
+      },
+      { type: 'h2', text: '4. Nail the photos — they do the selling' },
+      {
+        type: 'p',
+        text: 'This is where most beginner shops lose sales. A flat scan of the artwork tells a buyer what the image is, not what it looks like on their wall — and people buy art by picturing it in their space. Show each print in a realistic room, framed, at true scale, and the listing suddenly feels like a product. You don’t need a studio: a mockup app places your artwork in an interior from a single photo, at the real size you enter, so you can fill every listing slot with in-room images.',
+      },
+      { type: 'widget', widget: 'before-after' },
+      {
+        type: 'p',
+        text: 'In MockupWall you upload the artwork, enter the print dimensions, pick a scene (or your own wall), add a frame, and export a high-resolution image. Because each mockup is built from your own art, the photos are unique to your shop rather than the same template every seller reuses — which is exactly what helps a listing stand out.',
+      },
+      { type: 'h2', text: '5. Write clear listings and promote' },
+      {
+        type: 'p',
+        text: 'Give each listing a descriptive title, the sizes and materials, and a short line about the piece. Then drive traffic: Pinterest is a powerful, free channel for wall art because people search it for exactly this, and your in-room mockups make ideal pins. Share new drops on social, and consider a simple email list for repeat buyers.',
+      },
+      { type: 'h2', text: 'Start simple, improve as you go' },
+      {
+        type: 'p',
+        text: 'You don’t need everything perfect to launch. Pick one platform, list a focused first collection with strong in-room photos, price it sensibly, and start sharing. The biggest early win is almost always better presentation — so if you do one thing well, make it the mockups.',
+      },
+    ],
+    faqs: [
+      {
+        q: 'How do I start selling art prints online?',
+        a: 'Pick where to sell (your own store, Etsy, or print-on-demand), choose a focused range of sizes, price to cover your costs with a margin, and present each print with strong in-room photos. Then write clear listings and promote them, especially on Pinterest.',
+      },
+      {
+        q: 'What photos do I need to sell art prints?',
+        a: 'In-room mockups that show the print framed on a real wall at true scale, plus a clean image of the artwork itself. The in-room shots do most of the selling because they let buyers picture the piece in their space. A mockup app produces them from one photo of your art.',
+      },
+      {
+        q: 'Do I need to hold stock to sell prints?',
+        a: 'No. With print-on-demand, a partner prints and ships each order, so you hold no inventory. You can also print yourself for higher margins — it’s a trade-off between effort and profit.',
+      },
+      {
+        q: 'How do I make my shop stand out?',
+        a: 'Unique, in-room mockups and a cohesive, focused collection. Because mockups generated from your own art aren’t the shared templates other shops reuse, strong presentation is the lever you most control.',
+      },
+    ],
+    related: ['/for/artists/', '/for/etsy-art-sellers/', '/mockups/art-print/', '/tools/free-wall-art-mockup-generator/'],
+  },
+  {
     slug: 'poster-mockups-guide',
     metaTitle: 'Poster Mockups: How to Show Posters in Real Rooms',
     metaDescription:
